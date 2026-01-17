@@ -1,0 +1,10 @@
+<form id="quiz">
+  <p>Ar jautėte nuovargį prieš skrydį?</p>
+  <label><input type="radio" name="q1" value="2"> Dažnai</label>
+  <label><input type="radio" name="q1" value="1"> Kartais</label>
+  <label><input type="radio" name="q1" value="0"> Niekada</label>
+
+  <button type="button" onclick="calculate()">Gauti rezultatą</button>
+</form>
+
+<p id="result"></p>
